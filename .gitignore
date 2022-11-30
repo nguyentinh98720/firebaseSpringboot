@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### FCM resource ###
+/fcm/*.json
+
+### Project ###
+application-private.yml
