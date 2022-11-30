@@ -17,5 +17,9 @@ spring:
         trace: false  # prevent trace output
         web-allow-others: false # disable remote access
 
+springdoc:
+  api-docs:
+    path: /api-docs   # /v3/api-docs by default for version 1.6.13
+
 application:
   firebase-configuration-file: ${FCM_KEY_STORE} # path to fcm .json (google cloud keys)
